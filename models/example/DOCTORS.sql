@@ -24,7 +24,7 @@ json_extract(_airbyte_data, "$['image_details']") as image_details,
 json_extract(_airbyte_data, "$['legacy_details']") as legacy_details,
 json_extract(_airbyte_data, "$['mapped_organizations']") as mapped_organizations,
 json_extract(_airbyte_data, "$['mapped_headquarters']") as mapped_headquarters
-FROM goapptiv-data-lake.airbyte_mongodb_doctor_mangement._airbyte_raw_DOCTORS
+FROM goapptiv-data-lake.airbyte_test._airbyte_raw_DOCTORS
 
 )
 
