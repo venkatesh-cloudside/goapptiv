@@ -16,7 +16,7 @@ json_extract_scalar(_airbyte_data, "$['updated_at']") as updated_at,
 json_extract_scalar(_airbyte_data, "$['created_at']") as created_at,
 json_extract_scalar(_airbyte_data, "$['deleted_at']") as deleted_at
 
-FROM goapptiv-data-lake.airbyte_mongodb_doctor_mangement._airbyte_raw_ASSISTANTS
+FROM goapptiv-data-lake.airbyte_test._airbyte_raw_ASSISTANTS
 
 )
 
