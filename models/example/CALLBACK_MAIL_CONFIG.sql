@@ -10,7 +10,7 @@ json_extract_scalar(_airbyte_data, "$['email_to']") as email_to,
 json_extract_scalar(_airbyte_data, "$['email_to_name']") as email_to_name,
 json_extract_scalar(_airbyte_data, "$['email_cc']") as email_cc,
 json_extract_scalar(_airbyte_data, "$['org_name']") as org_name
-FROM goapptiv-data-lake.airbyte_mongodb_doctor_mangement._airbyte_raw_CALLBACK_MAIL_CONFIG
+FROM goapptiv-data-lake.airbyte_test._airbyte_raw_CALLBACK_MAIL_CONFIG
 
 )
 
