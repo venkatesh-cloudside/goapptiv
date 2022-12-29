@@ -24,7 +24,7 @@ json_extract_scalar(_airbyte_data, "$['__v_aibyte_transform']") as __v,
 json_extract_string_array(_airbyte_data, "$['category_ids']") as category_ids,
 json_extract_scalar(_airbyte_data, "$['status']") as status
 
-FROM goapptiv-data-lake.airbyte_mongodb_doctor_mangement._airbyte_raw_CARDS
+FROM goapptiv-data-lake.airbyte_test._airbyte_raw_CARDS
 
 )
 
